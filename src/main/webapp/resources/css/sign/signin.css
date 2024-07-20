@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+.signin_wrap {
+	width: 450px;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+
+.signin_wrap h2 {
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.signin_wrap input {
+	border: none;
+	width: 100%;
+	border-bottom: 1px solid black;
+	margin-bottom: 30px;
+	font-size: 17px;
+	padding: 10px 3px;
+}
+
+.signin_wrap .submit_btn {
+	width: 100%;
+	height: 50px;
+	font-size: 20px;
+	background-color: black;
+	color: white;
+	font-weight: bold;
+	border-radius: 25px;
+	margin-top: 50px;
+}

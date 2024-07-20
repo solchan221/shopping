@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+body > h2 {
+	text-align: center;
+	font-size: 34px;
+}
+
+.brand_banner {
+	height: 400px;
+	background-color: aqua;
+}
+
+.container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.filter_wrap {
+	width: 250px;
+}
+
+.filter_wrap h2 {
+	font-size: 19px;
+}
+
+.product_wrap {
+	width: 900px;
+}

@@ -1,0 +1,35 @@
+@charset "UTF-8";
+h2 {
+	text-align: center;
+	font-size: 30px;
+}
+.contents{
+	margin-top: 40px;
+	border-top: 1px solid dimgray;
+	grid-template-columns: repeat(4, 1fr);
+    gap: 26px;
+	display: grid;
+}
+
+.contents .item {
+	width: 280px;
+	box-sizing: border-box;
+	border: 1px solid grey;
+	margin-top: 20px;
+}
+
+.contents .item .img_wrap{
+	height: 150px;
+	text-align: center;
+}
+.contents .item .img_wrap img{
+
+	height: 150px;
+}
+
+.contents .item .brand_title{
+	padding-bottom: 10px;
+	text-align: center;
+	font-size: 19px;
+	font-weight: bold;
+}
